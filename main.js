@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
 
 var Q = window.Q = Quintus({audioSupported: ['mp3','ogg','wav']}) 
-        .include("Sprites, Scenes, Input, 2D, Anim, Touch, UI, TMX, Audio")
+        .include("Sprites, Scenes, Input, 2D, Anim, Touch, UI, TMX, Audio, IsoTileLayer")
         .setup({ development: true, maximize:true})
         .touch().controls(true)
         .enableSound();
